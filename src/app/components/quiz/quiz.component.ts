@@ -8,12 +8,13 @@ import quiz_questions from "../../../assets/data/quiz_questions.json";
 })
 export class QuizComponent implements OnInit {
   title: string = "";
+  cover: string = "";
 
   questions: any;
   questionSelected: any;
 
   answers: string[] = [];
-  answerSelected: string = "";
+  answerSelected: any[] = [];
 
   questionIndex: number = 0;
   questionMaxIndex: number = 0;
@@ -26,6 +27,7 @@ export class QuizComponent implements OnInit {
     if (quiz_questions) {
       this.finished = false;
       this.title = quiz_questions.title;
+      this.cover = quiz_questions.cover;
 
       this.questions = quiz_questions.questions;
       this.questionSelected = this.questions[this.questionIndex];
@@ -49,6 +51,7 @@ export class QuizComponent implements OnInit {
       const finalAnswer:string = await this.checkResult(this.answers);
       this.finished = true;
       this.answerSelected = quiz_questions.results[finalAnswer as keyof typeof quiz_questions.results];
+      console.log(this.answerSelected[0].text)
     }
   }
 

@@ -1,9 +1,11 @@
 {
   "title": "Você seria um herói ou vilão ?",
+  "cover": "https://ksr-ugc.imgix.net/assets/012/507/739/a98573e15b779620d15c3b8508fc1f53_original.jpg?crop=faces&w=1552&h=873&fit=crop&v=1464129061&auto=format&q=92&s=b56e691810488defbacaa10823219dc4",
   "questions": [
     {
       "id": 1,
       "question": "Qual super poder você escolheria ?",
+      "image": "https://img.freepik.com/premium-vector/superpower-logo-template-frame-with-divergent-rays-super-power-shield_123447-4385.jpg",
       "options": [
         { "id": 1, "name": "Raios-Lasers", "alias": "A" },
         { "id": 2, "name": "Voar", "alias": "B" },
@@ -15,6 +17,7 @@
     {
       "id": 2,
       "question": "Quem você salvaria primeiro ?",
+      "image": "https://www.swimlabs.com/hubfs/AdobeStock_271087052.jpeg",
       "options": [
         { "id": 1, "name": "Crianças", "alias": "A" },
         { "id": 2, "name": "Idosos", "alias": "A" },
@@ -23,7 +26,8 @@
     },
     {
       "id": 3,
-      "question": "Qual a sua maior preocupação ao enfrentar outro super ser ?",
+      "question": "Qual sua maior preocupação ao enfrentar outro super ?",
+      "image": "https://cdn.mos.cms.futurecdn.net/z36tiyqbpJ7PYx8bafhks3-1200-80.jpg",
       "options": [
         { "id": 1, "name": "Não destruir prédios", "alias": "B" },
         { "id": 2, "name": "Socar a cara do inimigo", "alias": "A" },
@@ -34,6 +38,7 @@
     {
       "id": 4,
       "question": "Qual o seu maior foco ?",
+      "image": "https://pbblogassets.s3.amazonaws.com/uploads/2016/03/Focus-Chart.jpg",
       "options": [
         { "id": 1, "name": "Ficar rico com poderes", "alias": "A" },
         { "id": 2, "name": "Salvar a cidade", "alias": "B" }
@@ -42,6 +47,7 @@
     {
       "id": 5,
       "question": "Qual o seu apelido de super ser ?",
+      "image": "https://media.istockphoto.com/id/494978188/vector/hello-my-name-is-introduction-red-flat-label.jpg?s=612x612&w=0&k=20&c=BX00-pm4m5YQO0HDPPTgu0O6Xr4AAug_YHD3Wi6thlU=",
       "options": [
         { "id": 1, "name": "O Terrível", "alias": "A" },
         { "id": 2, "name": "Amigo da vizinhança", "alias": "B" }
@@ -50,6 +56,7 @@
     {
       "id": 6,
       "question": "Qual pet você teria ?",
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_7959,h_4476,x_942,y_0/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gtswzkmn12r1kwrjhf.jpg",
       "options": [
         { "id": 1, "name": "Cachorro", "alias": "A" },
         { "id": 2, "name": "Gato", "alias": "B" }
@@ -57,7 +64,17 @@
     }
   ],
   "results": {
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": [
+      {
+        "text": "Você muito provavelmente seria um super vilão!",
+        "image": "https://arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/NJ64HHWZNII6RE5U53BBL32DT4.jpg"
+      }
+    ],
+    "B": [
+      {
+        "text": "Você muito provavelmente seria um super Herói!",
+        "image": "https://images.squarespace-cdn.com/content/v1/6282ec55d5f3c229291fcb47/1674437725718-PQYL45LC1J5G7XX6ZAIM/image-asset.png"
+      }
+    ]
   }
 }
